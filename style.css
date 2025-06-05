@@ -1,0 +1,72 @@
+.my-box-one {
+  width: 250px;
+  height: 75px;
+  padding: 15px;
+  border: 3px solid #84A59D;
+  margin: 20px;
+  background-color: #F5CAC3;
+  color: #6d8a82;
+    font-weight: bold;
+}
+
+.my-box-two {
+  width: 250px;
+  height: 170px;
+  padding: 25px;
+  border: 7px dashed #84A59D;
+  margin: 25px;
+  background-color: #F5CAC3;
+   color: #6d8a82;
+    font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif; 
+  line-height: 1.6;
+  margin: 50px;
+  padding: 20px;
+  background-color: #F6BD60;
+}
+.custom-style {
+  font-size: 20px;
+  color: #F28482;
+  font-style: italic;
+  background-color: #F7EDE2;
+  padding: 10px;
+  text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);
+    text-shadow: #84A59D 1px 1px 2px;
+}
+.my-box-three {
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  border: 4px solid #84A59D;
+  margin: 30px;
+  background-color: #F5CAC3;
+  color: #6d8a82;
+    font-weight: bold;
+}
+h1 {
+  color: #F28482;
+    font-size: 50px;
+  text-align: center; text-shadow: #411d1d 4px 4px 8px;
+}
+
+  
+
+h2 {
+  color: #F28482;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: #411d1d 2px 2px 4px;
+}   
+
+p {
+  color: #84A59D;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 10px 0;
+}   
