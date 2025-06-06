@@ -6,3 +6,10 @@
 # created 3 style boxes 
 # added custom style
 # added css
+# added flex box
+# added inline and block elements
+# added email input with placeholder and required validation
+# added password input with placeholder and required validation
+# added submit button
+# added more css
+# added add ARIA tags 

@@ -8,40 +8,50 @@
 </head>
 
 <body>
-
-  <!-- Header -->
-  <header>
-    <h1>Welcome to:</h1>
-    <h1>EllCodeAndLens</h1>
-    
-    
-    <nav>
+<div class="container">
+<!-- Navigation-->  
+<nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
+  
+    <!-- Header -->
+  <header>
+    <h1>Welcome to:</h1>
+    <h1>EllCodeAndLens</h1>
+    
   </header>
 
   <!-- Main Content -->
   <main>
     <!-- Section 1 -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I am learning web development and excited to build my a new website. I'm also passionate about photography and creative projects.</p>
-    </section>
+  <section id="about">
+     
+  <!--Adding block elements here-->  
+  <h2>About Me</h2>
+
+  <!-- Block elements -->
+  <div class="block">I am learning web development and excited to build my a new website.</div>
+  <p class="block">I'm also passionate about photography and creative projects.</p>
+
+  </section>
+
+  
 
     <!-- Section 2 -->
-    <section id="projects">
+  <section id="projects">
       <h2>My Projects</h2>
-      <p>This section will showcase my work in HTML, CSS, and JavaScript as I continue to grow my skills.</p>
-<div class="my-box-one">
+      
+<div class="box-one">
    Skills:
   - HTML & CSS
   - Bootstrap
   - JavaScript basics
   - Git & GitHub
 </div>
-<div class="my-box-two">
+
+<div class="box-two">
   <h3>My Developer Goals</h3>
   - Finish my portfolio<br>
   - Learn JavaScript deeply<br>
@@ -52,38 +62,110 @@
 <div class="custom-style">
   "The expert in anything was once a beginner." – Helen Hayes
 </div>
-<div class="my-box-three">
-    <h3>My Learning Journey</h3>
-    <p>Here's a timeline of my learning journey:</p>
-  <pre>
+
+<div class="box-three">
+    <h3>Here's a timeline of my learning journey:</h3>
+    
+  <div class="flex-container">
+
+  <div class="flex-box"> Lifelong Learner</div>
+  <div class="flex-box"> Future Innovator</div>
+  <div class="flex-box"> Visual Storyteller</div>
+</div>
+  
+  
+</div>
+  <p>As a beginner, I am excited to share my learning journey in web development. I started with HTML and CSS, and now I'm diving into JavaScript.</p>
+    
+ 
+
+</div>
+  </section>
+
+  <section class="timeline">
+    <div class="centered-box">
+    <h2>My Learning Timeline</h2>
+      <p>Here's a brief overview of my journey so far:</p>
+
+      <pre>
+
 November 2024    Started learning HTML & CSS
 May 2025         Started learning JavaScript
                 Built first portfolio site
-Next            Pursuing Level 2 coding
-                Continue to build more complex projects
-  </pre>
+Next:           Pursuing Level 2 coding
+                    Continuing to build more complex projects
+      </pre>
 
-</div>
+  </div>
     </section>
 
-
-  
-</section>
 
 
     <!-- Section 3 -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>If you'd like to connect, feel free to reach out via email or social media.</p>
-        <ul>
-            <a href="mailto:ellenebroome@gmail.com">ellenebroome@gmail.com       </a>
-<br>           
-            <a href="https://www.instagram.com/ellenehrb/" target="ellene">Instagram</a>
-<br>
-            <a href="https://www.linkedin.com/in/ellene-broome-3377214b/" target="ellene">LinkedIn</a>
+   
+ <section id="signup">
+
+  <h2>Sign Up to Stay in Touch</h2>
+  <form class="signup-form" aria-label="Sign up form">
+    <div class="form-column">
+      <label for="name">Name</label>
+      <input 
+        type="text" 
+        id="name" 
+        name="name" 
+        placeholder="Your full name" 
+        autofocus 
+        aria-required="true"
+        />
+      <label for="email">Email</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="you@example.com" 
+        required 
+        aria-required="true"
+      />
+    </div>
+    <div class="form-column">
+      <label for="password">Password</label>
+      <input 
+        type="password" 
+        id="password" 
+        name="password" 
+        placeholder="Create a password" 
+        required 
+        aria-required="true"
+      />
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  </section>
+  <!-- Contact Section 4 -->
+ <section id="contact">
+  <h2>OR</h2>
+  <h2>Contact Me</h2>
+  <p>If you'd like to connect, feel free to reach out via email or social media.</p>
+  <ul>
+    <li><a href="mailto:ellenebroome@gmail.com">ellenebroome@gmail.com</a></li>
+    <li><a href="https://www.instagram.com/ellenehrb/" target="_blank">Instagram</a></li>
+    <li><a href="https://www.linkedin.com/in/ellene-broome-3377214b/" target="_blank">LinkedIn</a></li>
+  </ul>
+</section>
 
 
-    </section>
+    <!-- section for Inline elements 5 -->
+
+    <section> 
+      
+      <!-- Inline elements -->
+
+    <!-- Adding Inline elements here -->
+  <p>
+  Ellene:  <span class="inline">creative problem-solver learning to code.</span> 
+  <br>
+    <a href="#top" class="inline">Back to top ↑</a>
+  </p></section>
     
 
   </main>
