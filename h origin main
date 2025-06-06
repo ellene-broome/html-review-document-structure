@@ -1,0 +1,29 @@
+[33mcommit 0fc3ed022b17094e4fcec587a36bfe6564a269c1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: erbroome <ellenehall@gmail.com>
+Date:   Fri Jun 6 16:30:58 2025 -0500
+
+    saw more errors to correct
+
+[33mcommit d93bcf31fd9e0c718872c0b3c9bcdc7e4de2bcac[m
+Author: erbroome <ellenehall@gmail.com>
+Date:   Fri Jun 6 16:19:14 2025 -0500
+
+    centered contact info, made boxes flex, corrected misc. open tags
+
+[33mcommit 474d367ada3af8202df394ea3998d75d226f4135[m[33m ([m[1;31morgin/main[m[33m, [m[1;31morgin/HEAD[m[33m)[m
+Author: erbroome <ellenehall@gmail.com>
+Date:   Wed Jun 4 22:14:06 2025 -0500
+
+    made a few corrections
+
+[33mcommit 9337f5a7754e92f4eed6d35d77e73c932d63048a[m
+Author: erbroome <ellenehall@gmail.com>
+Date:   Wed Jun 4 22:05:57 2025 -0500
+
+    basically created  html-review-document-structure, created an index.html file, added basic structure, use a <pre> tag, create and style a box, created 3 style boxes, added custom style, added css.
+
+[33mcommit 17616108100cf9e7653c1b4c95d6a15aa2ec83e3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ellene R Broome <ellenehall@gmail.com>
+Date:   Wed Jun 4 14:39:15 2025 -0500
+
+    Initial commit
