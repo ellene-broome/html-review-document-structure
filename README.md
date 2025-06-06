@@ -13,3 +13,5 @@
 # added submit button
 # added more css
 # added add ARIA tags 
+# moved "things" to where I wanted them to be
+# correct errors

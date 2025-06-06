@@ -160,8 +160,7 @@ pre {
 .signup-form button {
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #984A59D;
-  font-size: 1rem;
+  border: 1px solid #84A59D;
 }
 
 .signup-form label {
@@ -223,7 +222,7 @@ pre {
   max-width: 800px;
   padding: 20px;
   background-color: #F7EDE2;
-  border: 2px solid #ccc;
+  border: 2px solid #84A59D;
   border-radius: 10px;
   text-align: left;
   font-family: monospace;
@@ -264,13 +263,14 @@ pre {
 .signup-form button {
   margin-top: 20px;
   padding: 10px;
-  background-color: #84A59D
-  border: none;
-  border-radius: 6px;
+  background-color: #84A59D;
+  border: #3f4e4a;
+  border-radius: 5px;
+  color: #F7EDE2;
+  font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.2s;
 }
-
 .signup-form button:hover {
   background-color: #3e6458;
 }
